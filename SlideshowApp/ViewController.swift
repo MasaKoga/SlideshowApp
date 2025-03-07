@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     // MARK: - プロパティ
     
     /// スライドショーで表示する画像の配列（Assetsに登録された画像名）
-    let images = ["grape", "grapefruit", "lemon"]
+    let images = ["grape.png", "grapefruit.png", "lemon.png"]
     
     /// 現在表示している画像のインデックス
     var currentIndex = 0
@@ -84,6 +84,7 @@ class ViewController: UIViewController {
     /// 画像がタップされたときに拡大画面へ遷移するメソッド。
     @IBAction func tapImage(_ sender: Any) {
         performSegue(withIdentifier: "toDetailView", sender: nil)
+        stopSlideshow()
     }
 
 

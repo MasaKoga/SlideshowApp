@@ -50,9 +50,10 @@
                                     <action selector="prevImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WNN-9H-c2w"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="af2-2T-1rf">
-                                <rect key="frame" x="266.66666666666669" y="601" width="56.333333333333314" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="af2-2T-1rf">
+                                <rect key="frame" x="268" y="601" width="75" height="50"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="BRV-gU-DNR"/>
                                     <constraint firstAttribute="height" constant="50" id="EXI-S2-0Iv"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
@@ -68,9 +69,8 @@
                         <constraints>
                             <constraint firstItem="MKD-Wv-gYx" firstAttribute="top" secondItem="d2E-RX-jnv" secondAttribute="top" id="0Qm-s0-7zC"/>
                             <constraint firstItem="LhY-qu-UJp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1Ga-uR-lgt"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="af2-2T-1rf" secondAttribute="trailing" constant="70" id="HLo-Fa-yyx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LhY-qu-UJp" secondAttribute="trailing" constant="50" id="O9n-CR-cLu"/>
-                            <constraint firstItem="MKD-Wv-gYx" firstAttribute="leading" secondItem="d2E-RX-jnv" secondAttribute="trailing" constant="20" id="V5r-a0-4ze"/>
+                            <constraint firstItem="MKD-Wv-gYx" firstAttribute="leading" secondItem="d2E-RX-jnv" secondAttribute="trailing" constant="20" id="OYb-xr-zJD"/>
                             <constraint firstItem="af2-2T-1rf" firstAttribute="leading" secondItem="MKD-Wv-gYx" secondAttribute="trailing" constant="20" id="dr8-Lb-rp2"/>
                             <constraint firstItem="MKD-Wv-gYx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="drJ-29-f02"/>
                             <constraint firstItem="LhY-qu-UJp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kgB-wz-6BV"/>
